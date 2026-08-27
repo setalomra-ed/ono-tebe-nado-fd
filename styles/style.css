@@ -145,7 +145,7 @@
 
 .lots__card-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     list-style: none;
 }
@@ -210,7 +210,7 @@
 .about {
     margin: 155px 24px 180px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
@@ -251,7 +251,7 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     align-items: start;
     padding: 0 50px 88px;
     font-size: 18px;
